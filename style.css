@@ -1,0 +1,39 @@
+body { 
+    background-color: rgb(66, 66, 62);
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    width: 40vw;
+    height: 40vw;
+    clip-path: circle(50% at 50% 50%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.flex > div {
+    background-image: linear-gradient(to right top, #6bd1d1, #7dccaf, #9ac48f, #b8b87a, #d2aa74, #dda96f, #e8a86a, #f4a667, #edb94f, #d6cf3e, #ace543, #5ffb65);
+    width: 20%;
+    height: 20%;
+    clip-path: circle(50% at 50% 50%);
+    aspect-ratio: 1/1;
+    text-align: center; 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex > div > img {
+    width: 90%;
+    height: 90%;
+    clip-path: circle(50% at 50% 50%);
+    
+}

@@ -1,0 +1,9 @@
+<link rel="stylesheet" type="text/css" href="style.css" />
+
+rgb(66, 66, 62);
+
+flex-wrap: wrap;
+
+https://bennettfeely.com/clippy/
+
+https://mycolor.space/gradient
